@@ -1,0 +1,65 @@
+*{
+	margin:10px 10px;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.container{
+	width:100%;
+	margin: 0 auto;
+}
+
+.rows{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+img{
+	width:20%;
+	margin:30px;
+	height:20%;
+}
+
+.img_container>img:nth-child(2){
+	filter: blur(5px);
+}
+
+.img_container>img:nth-child(2){
+	filter: blur(5px);
+}
+
+.img_container>img:nth-child(3){
+	filter: brightness(400%);
+}
+
+.img_container>img:nth-child(4){
+	filter: contrast(200%);
+}
+
+.img_container>img:nth-child(5){
+	filter: grayscale(1);
+}
+
+.img_container>img:nth-child(6){
+	filter: hue-rotate(600deg);
+}
+
+.img_container>img:nth-child(7){
+	filter: invert(1);
+}
+
+.img_container>img:nth-child(8){
+	filter: opacity(0.5);
+}
+
+.img_container>img:nth-child(9){
+	filter: saturate(10);
+}
+
+.img_container>img:nth-child(10){
+	filter: sepia(1);
+}
+
+.img_container>img:nth-child(11){
+	filter: drop-shadow(15px 15px 15px black);
+}
